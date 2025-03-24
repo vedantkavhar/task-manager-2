@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #2a2c3f;
+}
+.container {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    background: rgb(64, 64, 78);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.task-form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color:#0a60a7 ;
+    border-radius: 10px;
+    border-color: black;
+    color: white;
+}
+.task {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+}
+.filter{
+    margin-top:10px ;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}   
